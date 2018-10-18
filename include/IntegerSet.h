@@ -6,8 +6,8 @@
 //  Copyright © 2018 Christian Burke. All rights reserved.
 //
 
-#ifndef INTEGERSET_H
-#define INTEGERSET_H
+//#ifndef INTEGERSET_H
+//#define INTEGERSET_H
 
 
 // IntegerSet abstract base class to demonstrate hash table concepts
@@ -64,5 +64,5 @@ public:
 };
 
 
-#endif //INTEGERSET_H
+//#endif //INTEGERSET_H
 
