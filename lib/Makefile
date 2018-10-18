@@ -1,6 +1,6 @@
 
 # add files you create here
-OBJ = example.o IntegerSet.o
+OBJ = IntegerSet.o Main.o
 
 all: libece309.a
 
