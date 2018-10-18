@@ -1,6 +1,6 @@
 
 # add files you create here
-OBJ = Main.o IntegerSet.o
+OBJ = Main.o IntergerSet.o
 
 all: libece309.a
 
