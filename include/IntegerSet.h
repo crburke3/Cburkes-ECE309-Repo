@@ -9,7 +9,6 @@
 #ifndef INTEGERSET_H
 #define INTEGERSET_H
 
-#include "List.h"
 
 // IntegerSet abstract base class to demonstrate hash table concepts
 class IntegerSet {
