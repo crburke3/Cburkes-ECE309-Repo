@@ -21,7 +21,6 @@ int main()
     IntInf posInf = IntInf(true);
     
     IntInf test = IntInf();
-    bool var;
     
     // ------------ = testers -------------
     test = 5;
@@ -81,44 +80,46 @@ int main()
     test = (negInf / negInf);
     
     // ------------ == testers -------------
-    var = (num == num);
-    var = (num == num2);
-    var = (num == negInf);
-    var = (num == negInf);
+    bool boolTest;
+
+    boolTest = (num == num);
+    boolTest = (num == num2);
+    boolTest = (num == negInf);
+    boolTest = (num == negInf);
     
-    var = (posInf == num);
-    var = (posInf == posInf);
-    var = (posInf == negInf);
+    boolTest = (posInf == num);
+    boolTest = (posInf == posInf);
+    boolTest = (posInf == negInf);
     
-    var = (negInf == num);
-    var = (negInf == posInf);
-    var = (negInf == negInf);
+    boolTest = (negInf == num);
+    boolTest = (negInf == posInf);
+    boolTest = (negInf == negInf);
     
     // ------------ > testers -------------
-    var = (num > num2);
-    var = (num > posInf);
-    var = (num > negInf);
+    boolTest = (num > num2);
+    boolTest = (num > posInf);
+    boolTest = (num > negInf);
     
-    var = (posInf > num);
-    var = (posInf > posInf);
-    var = (posInf > negInf);
+    boolTest = (posInf > num);
+    boolTest = (posInf > posInf);
+    boolTest = (posInf > negInf);
     
-    var = (negInf > num);
-    var = (negInf > posInf);
-    var = (negInf > negInf);
+    boolTest = (negInf > num);
+    boolTest = (negInf > posInf);
+    boolTest = (negInf > negInf);
     
     // ------------ < testers -------------
-    var = (num < num2);
-    var = (num < posInf);
-    var = (num < negInf);
+    boolTest = (num < num2);
+    boolTest = (num < posInf);
+    boolTest = (num < negInf);
     
-    var = (posInf < num);
-    var = (posInf < posInf);
-    var = (posInf < negInf);
+    boolTest = (posInf < num);
+    boolTest = (posInf < posInf);
+    boolTest = (posInf < negInf);
     
-    var = (negInf < num);
-    var = (negInf < posInf);
-    var = (negInf < negInf);
+    boolTest = (negInf < num);
+    boolTest = (negInf < posInf);
+    boolTest = (negInf < negInf);
     
     return 0;
 }
