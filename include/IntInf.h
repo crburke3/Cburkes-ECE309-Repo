@@ -31,7 +31,7 @@ public:
         if(!isPosInf)   //if we want a -inf
         {
             is_int = false;
-            val = NULL;
+            val = 0;
             pos_inf = false;
             neg_inf = true;
         }
