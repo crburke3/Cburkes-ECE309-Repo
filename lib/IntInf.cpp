@@ -33,7 +33,7 @@ IntInf IntInf::operator+ (const IntInf &ref)   //Adding
         if(!ref.is_int)     //if we are adding or subtracting infinity from an integer
         {
             ret.is_int = false;
-            ret.val = NULL;
+            ret.val = 0;
             if(ref.pos_inf == true) //if ref is +inf
             {
                 ret.pos_inf = true;
@@ -51,7 +51,7 @@ IntInf IntInf::operator+ (const IntInf &ref)   //Adding
         ret.is_int = false;
         ret.pos_inf = pos_inf;
         ret.neg_inf = neg_inf;
-        ret.val = NULL;
+        ret.val = 0;
     }
 
     //I have learned that adding -inf to +inf will not do anything. So we only care if we are adding an int to an int or inf to int
@@ -74,7 +74,7 @@ IntInf IntInf::operator- (const IntInf &ref)   //subtracting
         if(!ref.is_int)
         {
             ret.is_int = false;
-            ret.val = NULL;
+            ret.val = 0;
             if(ref.pos_inf == true) //if num - (+inf)
             {
                 ret.pos_inf = false;
@@ -92,7 +92,7 @@ IntInf IntInf::operator- (const IntInf &ref)   //subtracting
         ret.is_int = false;
         ret.pos_inf = pos_inf;
         ret.neg_inf = neg_inf;
-        ret.val = NULL;
+        ret.val = 0;
     }
     
     //I have learned that adding -inf to +inf will not do anything. So we only care if we are adding an int to an int or inf to int
@@ -119,7 +119,7 @@ IntInf IntInf::operator* (const IntInf &ref)   //Multiplying
             ret.is_int = false;
             ret.neg_inf = ref.neg_inf;  //make the return inf = ref inf
             ret.pos_inf = ref.pos_inf;  //make the return inf = ref inf
-            ret.val = NULL;
+            ret.val = 0;
             return ret;
         }
     }
@@ -131,14 +131,14 @@ IntInf IntInf::operator* (const IntInf &ref)   //Multiplying
             ret.is_int = false;
             ret.pos_inf = pos_inf;
             ret.neg_inf = neg_inf;
-            ret.val = NULL;
+            ret.val = 0;
             return ret;
         }
         
         if(!ref.is_int) //if multiplier is infinite : +inf * +inf
         {
             ret.is_int = false;
-            ret.val = NULL;
+            ret.val = 0;
             if(pos_inf) // this is a +inf
             {
                 if(ref.neg_inf)//ref is -inf
@@ -183,7 +183,7 @@ IntInf IntInf::operator/ (const IntInf &ref)   //dividing
             if(ref.val == 0)
             {
                 fin.is_int = false;
-                fin.val = NULL;
+                fin.val = 0;
                 fin.neg_inf = false;
                 fin.pos_inf = false;
                 printf("UNDEFINED");
@@ -210,7 +210,7 @@ IntInf IntInf::operator/ (const IntInf &ref)   //dividing
     if(!is_int) //if this is infinite
     {
         fin.is_int = false;
-        fin.val = NULL;
+        fin.val = 0;
         
         if(ref.is_int)  //  inf/5
         {
