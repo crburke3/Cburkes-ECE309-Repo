@@ -80,9 +80,8 @@ int main()
     test = (negInf / negInf);
     
     // ------------ == testers -------------
-    bool boolTest;
 
-    boolTest = (num == num);
+    bool boolTest = (num == num);
     boolTest = (num == num2);
     boolTest = (num == negInf);
     boolTest = (num == negInf);
