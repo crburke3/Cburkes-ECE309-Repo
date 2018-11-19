@@ -120,5 +120,7 @@ int main()
     boolTest = (negInf < posInf);
     boolTest = (negInf < negInf);
     
+    test.is_int = boolTest;
+    
     return 0;
 }
