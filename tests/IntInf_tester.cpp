@@ -21,7 +21,7 @@ int main()
     IntInf posInf = IntInf(true);
     
     IntInf test = IntInf();
-    bool var = true;
+    bool var;
     
     // ------------ = testers -------------
     test = 5;
