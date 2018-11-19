@@ -24,7 +24,7 @@ public:
         if(isPosInf)    //if we want a +inf
         {
             is_int = false;
-            val = NULL;
+            val = 0;
             pos_inf = true;
             neg_inf = false;
         }
