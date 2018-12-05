@@ -11,6 +11,7 @@
 #include <stdlib.h>
 #include <set>
 
+namespace ece309{
 
 class MaxHeap {
 private:
@@ -130,7 +131,7 @@ void MaxHeap::sort(int *array, int size) {
 
 
 
-
+/*
 bool FindPath(const node nod, const node endNode, std::set<node>& path, std::set<node>& visited, int size, int* array)
 {
     unsigned long nodeReal = visited.count(nod);    //returns 0 if the node not in set
@@ -176,7 +177,7 @@ bool FindPath(const node nod, const node endNode, std::set<node>& path, std::set
     }
     return false;
 }
-
+*/
 
 std::set<node> shortestPath(int* array, int size, const node start, const node end) {
     std::set <node> pathSet;
@@ -186,7 +187,8 @@ std::set<node> shortestPath(int* array, int size, const node start, const node e
     
     return pathSet;
 }
-
+    
+}
 
 /*
 int main() {
