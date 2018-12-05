@@ -13,6 +13,9 @@
 #include "IntegerSetArray.h"
 #include <string.h>
 
+namespace ece309{
+
+
 class IntegerSet {
 protected:
     int size;
@@ -92,7 +95,7 @@ void IntegerSetArray::remove(int x)
 
 
 
-
+}
 
 
 
