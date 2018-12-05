@@ -10,6 +10,9 @@
 #define ShortestPath_h
 
 #include <stdio.h>
+
+namespace ece309{
+
 class node{
 public:
     int index;
@@ -43,5 +46,6 @@ public:
 
     }
 };
-
+}
+    
 #endif /* ShortestPath_hpp */
