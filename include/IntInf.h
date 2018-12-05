@@ -11,6 +11,8 @@
 
 #include <stdio.h>
 
+namespace ece309{
+
 class IntInf {
 public:
     bool is_int;
@@ -56,6 +58,6 @@ public:
 
 };
 
-
+}
 
 #endif /* IntInf_h */
