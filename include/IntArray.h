@@ -13,6 +13,7 @@
 #include <stdio.h>
 #include <string>
 
+namespace ece309{
 
 class IntArray{
 public:
@@ -230,6 +231,6 @@ void IntArray::set(int index, int val) {
 }
 
 
-
+}
 
 //#endif /* Prob__2_hpp */
