@@ -6,8 +6,8 @@
 //  Copyright © 2018 Christian Burke. All rights reserved.
 //
 
-//#ifndef INTEGERSET_H
-//#define INTEGERSET_H
+#ifndef INTEGERSET_H
+#define INTEGERSET_H
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -67,5 +67,5 @@ public:
 };
 
 }
-//#endif //INTEGERSET_H
+#endif //INTEGERSET_H
 
