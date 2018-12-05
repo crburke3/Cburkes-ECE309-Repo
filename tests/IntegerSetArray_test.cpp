@@ -1,6 +1,9 @@
 #include "IntegerSetArray.h"
 #include <stdio.h>
 
+using namespace ece309;
+
+
 int main()
 {
     int testPassCnt = 0;
