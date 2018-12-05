@@ -10,7 +10,7 @@
 //#define INTEGERSET_H
 
 #include <stdio.h>
-
+#include <stdlib.h>
 
 namespace ece309{
 // IntegerSet abstract base class to demonstrate hash table concepts
