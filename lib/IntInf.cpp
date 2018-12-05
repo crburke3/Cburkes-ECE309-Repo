@@ -8,6 +8,9 @@
 
 #include "IntInf.h"
 
+namespace ece309{
+
+
 void IntInf::operator= (const int &num)
 {
     is_int = true;
@@ -349,4 +352,6 @@ bool IntInf::operator< (const IntInf &ref)   //>
         }
     }
     return false;
+}
+    
 }
