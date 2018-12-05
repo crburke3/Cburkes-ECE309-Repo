@@ -188,7 +188,7 @@ std::set<node> shortestPath(int* array, int size, const node start, const node e
 }
 
 
-
+/*
 int main() {
     
     int size = 10;
@@ -221,3 +221,4 @@ int main() {
 
     return 0;
 }
+*/
