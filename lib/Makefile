@@ -1,6 +1,6 @@
 
 # add files you create here
-OBJ = IntInf.o IntegerSet.o
+OBJ = IntInf.o IntergerSet.o ShortestPath.o
 
 all: libece309.a
 
