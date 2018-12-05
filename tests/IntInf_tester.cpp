@@ -9,6 +9,9 @@
 #include <stdio.h>
 #include "IntInf.h"
 
+
+using namespace ece309;
+
 int main()
 {
     // I tested the following lines of code by using the debugger to analyze each value, rather than printing.
