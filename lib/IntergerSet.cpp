@@ -10,6 +10,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+namespace ece309{
+
 // can only hold positive integers
 IntegerSetHT::IntegerSetHT(int htsize)
 :IntegerSet(htsize)
@@ -149,4 +151,4 @@ int* IntegerSetHT::iterator::getHead()
 }
 
 
-
+}
