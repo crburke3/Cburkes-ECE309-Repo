@@ -11,6 +11,8 @@
 #include <stdlib.h>
 #include <set>
 
+using namespace ece309;
+
 int main() {
     
     int size = 10;
@@ -39,7 +41,7 @@ int main() {
     node endNode(9, array[9]);
     std::set<node> shortestSet;
     
-    shortestPath(array, size, startNode, endNode);
+    //shortestPath(array, size, startNode, endNode);
     
     return 0;
 }
