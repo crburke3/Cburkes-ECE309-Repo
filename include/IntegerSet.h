@@ -11,7 +11,7 @@
 
 #include <stdio.h>
 
-//namespace ece309{
+namespace ece309{
 // IntegerSet abstract base class to demonstrate hash table concepts
 class IntegerSet {
 protected:
@@ -66,5 +66,5 @@ public:
 };
 
 }
-//#endif //INTEGERSET_H
+#endif //INTEGERSET_H
 
